@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+
+    <style>
+        label{
+            font-weight: bold;
+        }
+
+        fieldset{
+            text-align: center;
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <h2>HTML Form</h2>
+    <form action="submit" method="POST">
+        <fieldset>
+        <h2>The Data Required</h2>
+        <h3><em>Please fill all the information</em></h3>
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" placeholder="Enter first name" required>
+        <br><br>
+        <label for="sname">Second Name</label><br>
+        <input type="text" name="sname" id="sname" placeholder="Enter second name" required>
+        <br><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <br><br>
+        <label for="idnumber">Identity Number</label><br>
+        <input type="number" name="idn" placeholder="Enter your ID number" required>
+        <br><br>
+
+        <label for="date">Date of Birth</label><br>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+
+        <label for="location">Place of Residence</label>
+        <select id="residence">
+            <option>Please select one</option>
+            <option>Kilifi</option>
+            <option>Kisumu</option>
+            <option>Nairobi</option>
+            <option>Machakos</option>
+            <option>Eldoret</option>
+            <option>Nakuru</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <label for="file">Upload Your Resume</label>
+        <input type="file" name="resume" id="resume">
+        <br><br>
+
+        <label for="c">Commitment to the course</label>
+        <input type="range" name="cm" id="cm">
+        <br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="submit" value="Cancel"> 
+
+        </fieldset>
+    </form>
+    <br>
+
+<h2>HTML Lists</h2>
+<h3>Odered List for programming languages</h3>
+<ol type="">
+    <li>Python</li>
+    <li>Java</li>
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+    <li>Ruby</li>
+    <li>HTML & CSS</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>C#</li>
+    <li>PHP</li>
+</ol>
+
+<h3>Unordered list for Software Technologies</h3>
+<ul type="">
+    <li>Laravel for php</li>
+    <li>Spring, Springboot, Kubernetes & Marven for Java</li>
+    <li>React, angular, Vue & Node for JS</li>
+    <li>React Naitve for JavaScript and TypeScript</li>
+    <li>Flask and Django for Python</li>
+    <li>Databases for all</li>
+</ul>
+
+<h3>Definition Lists</h3>
+<dl>
+    <li>Here we go.. learning is a daring do</li>
+    <li>Learnind is a continous endless process</li>
+    <li>It is never easy to stay on move in regard to upskilling yourself while learning, unlearning and re-learning</li>
+</dl>
+
+<h3>Nested Lists</h3>
+<ol>
+  <li>First ordered item</li>
+  <li>Second ordered item
+    <ul>
+      <li>Unordered sub-item 1</li>
+      <li>Unordered sub-item 2</li>
+    </ul>
+  </li>
+  <li>Third ordered item</li>
+</ol>
+
+
+    
+</body>
+</html>
